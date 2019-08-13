@@ -1,0 +1,41 @@
+body {
+  margin: 0 auto;
+  background-color: white;
+}
+
+h1 {
+  font-family: 'Baloo Chettan';
+  padding-bottom: 30px;
+}
+
+.row, .container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.img-thumbnail {
+  max-width: 150px !important;
+  max-height: 150px !important;
+  border: 0px !important;
+  background: white;
+  box-sizing: border-box;
+}
+
+.animals {
+  width: 150x;
+  height: 150px;
+  border: 0px;
+  text-align: center;
+  background: white;
+}
+
+button:focus {
+  outline: 0 !important;
+}
+
+button:hover {
+  border: grey 5px solid;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 5%;
+}
